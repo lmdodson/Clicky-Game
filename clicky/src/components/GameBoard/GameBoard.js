@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import GameCard from '../GameCard';
 import cards from "../../cards.json";
-import "./MainGameContainer.css";
+import "./GameBoard.css";
 
 class GameBoard extends Component {
     state = {
@@ -33,7 +33,7 @@ class GameBoard extends Component {
                 }
             });
 
-            var { topScore, score } = this.state;
+            var { highScore, score } = this.state;
             var newScore = score + 1;
             var newHighScore = newScore > highScore ? newScore : highScore;
 
@@ -53,31 +53,31 @@ class GameBoard extends Component {
                 <div className="game-stats">
                     <div className="game-scores">
                         <p>
-                            Current Score: {this.state.Score} | High Score: {this.state.highScore}
+                            Current Score: {this.state.score} | High Score: {this.state.highScore}
                         </p>
                     </div>
                     <div className="game-message">
-                        <p> {this.state.score} </p>
+                        <p> {this.state.message} </p>
                     </div>
                 </div>
 
 
-            <div className="board">
             <div className="row"> 
-            {this.state.images.map (image => (
-                <GameCard
-                    key={card.id}
-                    id={card.id}
-                    name={card.name}
-                    clicked={card.clicked}
-                    image={card.image}
-                    handleClick={this.handleClick}
-                    />
-            ))}
+                {this.state.cards.map (card => (
+                    <GameCard
+                        key={card.id}
+                        id={card.id}
+                        name={card.name}
+                        clicked={card.clicked}
+                        image={card.image}
+                        handleClick={this.handleClick}
+                        />
+                ))}
             </div>
             </div>
-            </div>
-    
-            );
-    }
-}
+
+        );
+    };
+};
+
+export default GameBoard;
