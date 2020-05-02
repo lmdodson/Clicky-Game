@@ -1,0 +1,11 @@
+.navbar {
+    background: darkblue;
+    color: white;
+    display: inline;
+}
+
+.jumbotron {
+    text-align: center;
+    background: url(../public/weather.png);
+    color: darkblue;
+}

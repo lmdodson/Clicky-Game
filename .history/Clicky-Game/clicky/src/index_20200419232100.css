@@ -1,0 +1,78 @@
+body {
+    background: url(../src/images/weather.png);
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar {
+    background: #ffcc00;
+    color: #3399ff;
+}
+
+.jumbotron {
+    text-align: center;
+    background: #ffcc00;
+    color: #404040;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 5em;
+}
+
+.score {
+    position: absolute;
+    width: 100%;
+    white-space: nowrap;
+    align-items: flex-start;
+}
+
+.click-result {
+    display: inline-block;
+    width: 33.3%;
+}
+
+.current-score {
+    display: inline-block;
+    width: 33.3%;
+}
+
+.top-score {
+    display: inline-block;
+    width: 33.3%;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #404040;
+}
+
+.container {
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 80%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.game-img {
+        background-size: cover;
+        background-position: 50%;
+        height: 170px;
+        width: 170px;
+        margin: 8px 25px;
+        border: 5px solid #f1f1f1;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+        box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+        cursor: pointer;
+    }

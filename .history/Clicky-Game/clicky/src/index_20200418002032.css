@@ -1,0 +1,10 @@
+.navbar {
+    background: #ffcc00;
+    color: #3399ff;
+}
+
+.jumbotron {
+    text-align: center;
+    background: url(../src/images//weather.png);
+    color: #404040;
+}

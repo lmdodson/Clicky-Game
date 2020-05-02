@@ -1,0 +1,5 @@
+.jumbotron {
+    text-align: center;
+    background: url(../public/weather.png);
+    color: darkblue;
+}
