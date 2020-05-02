@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +67,20 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+=======
+# Clicky-Game
+
+## Overview
+This is a memory game that tracks user clicks to determine score. If an image is clicked more than once, the game is ended and the score is recorded. 
+
+View the project here: 
+
+## Technology used
+  - React
+  - JSX
+  - create-react-app npm package
+  
+
+## Developer
+### Leah Dodson
+>>>>>>> 4b1132634516745bc7818afcfac8a7de5debd7cf
