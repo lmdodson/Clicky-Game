@@ -2,12 +2,18 @@ p {
     text-align: center;
     font-size: 1.5em;
     color: #404040;
+    font-weight: lighter;
 }
 
 .jumbotron {
     text-align: center;
-    font-weight: bold;
     background: #ffcc00;
     color: #404040;
     margin: 0;
+    width: 100%;
+
+}
+
+.title {
+    font-weight: bolder;
 }
