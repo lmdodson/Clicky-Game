@@ -13,17 +13,26 @@
   padding: 10px 0;
   font-size: 1.5em;
   font-style: italic;
+  color: goldenrod;
+  font-weight: bolder;
 }
 
 .game-scores {
   text-align: center;
   max-width: 100%;
   align-content: center;
+}
+
+.game-scores p {
+  color: goldenrod;
+  font-weight: bolder;
   font-size: 1.25em;
 }
 
 .game-board {
+  background: url(https://cdn.pixabay.com/photo/2016/11/21/17/58/green-1846861_1280.jpg);
   display: -ms-flexbox;
+  color: wheat;
   display: flex;
   min-height: 80%;
   -ms-flex-wrap: wrap;
@@ -32,6 +41,10 @@
   justify-content: center;
   padding-top: 50px;
   padding-bottom: 50px;
-  width: 75%;
+  width: 100%;
   margin: 0 auto;
+}
+
+.row {
+  margin-left: 8em;
 }
