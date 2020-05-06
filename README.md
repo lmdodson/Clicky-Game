@@ -10,6 +10,8 @@ View the project here:
   - JSX
   - create-react-app npm package
   
+  Images courtesy of pixabay.com
+  
 
 ## Developer
 ### Leah Dodson
