@@ -1,7 +1,7 @@
 {
   "name": "clicky",
   "version": "0.1.0",
-  "homepage": "https://lmdodson.github.io/clicky-game/",
+  "homepage": "https://lmdodson.github.io/Clicky-Game/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
